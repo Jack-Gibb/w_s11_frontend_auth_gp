@@ -35,7 +35,7 @@ export default function AuthForm() {
   return (
     <div className="container">
       <div aria-live="polite"></div>
-      <div aria-live="assertive" style={{ color: 'red' }}></div>
+      <div aria-live="assertive" style={{ color: 'red' }}>{error}</div>
       <h3>Login Form</h3>
       <form onSubmit={handleSubmit}>
         <div>
